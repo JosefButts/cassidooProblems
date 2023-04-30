@@ -7,6 +7,5 @@ function divisibleIntegers(n, arr) {
     let sum = arr.reduce((acum, cur) => {
         return acum + parseInt(cur);
     }, 0)
-    console.log(sum)
     return sum % n === 0;
 }
