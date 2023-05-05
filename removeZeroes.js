@@ -15,7 +15,7 @@ function removeZeroes(arr) {
     let leadingZero = true
     let trailingZero = true
     
-    // remove leading zero
+    // remove leading zeros
     while (leadingZero ){
         if (resultArray[0] === 0){
             resultArray.shift();
